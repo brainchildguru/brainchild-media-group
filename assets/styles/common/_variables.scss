@@ -1,0 +1,18 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #000000;
+$link-color:		#f1c40f;
+
+a {color:$link-color;}
+//** Link hover color set via `darken()` function.
+$link-hover-color:      $brand-primary;
+//** Link hover decoration.
+$link-hover-decoration: none !default;
+
+.footer-love {color:$link-color;text-align:center;}
